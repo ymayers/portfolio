@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&display=swap");
+
+
+.nav {
+  margin: 1em 0 -1.15em 0;
+  position: sticky;
+  top: 0;
+  height: 100%;
+ 
+}
+
+.nav a {
+  margin: 6px;
+  color: transparent;
+  text-decoration: none;
+  font-family: 'Advent Pro', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-shadow: 1px 1px 1px #181A29;
+}
+
+.nav a:hover {
+  font-size: 18.1px;
+  text-shadow: 1px 1px 3px white, 1px 1px 1px black;
+  transition: 1s;
+}
+
+
