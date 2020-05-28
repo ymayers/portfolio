@@ -1,11 +1,13 @@
 import * as React from "react";
 import { motion, AnimatePresence } from "framer-motion";
-
-
+import { Route } from "react-router-dom";
 
 import Landing from "./Landing";
 import Header from "./Header";
 import Projects from "./Projects";
+import Resume from "./Resume";
+import Contact from "./Contact";
+import Footer from "./Footer";
 
 import "./App.css";
 
@@ -37,24 +39,28 @@ export const App = () => {
         <motion.div
           className="header-holder"
           key="header"
-          initial={{ opacity: 0 , y: -10}}
+          initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 20 }}
           exit={{ opacity: 0 }}
         >
-          <Header/>
+          <Header />
         </motion.div>
+
         <motion.div
           key="landing"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
         >
-          <Landing />
+          <Route exact path="/" render={() =>  (<Landing/>) }  />
         </motion.div>
         }
       </AnimatePresence>
       {/* <Route exact path="/projects" render={() => (<Projects />)} /> */}
-      <Projects />
+      <Route path="/projects" render={() => <Projects />} />
+      <Route path="/resume" render={() => <Resume />} />
+      <Route path="/contact" render={() => <Contact />} />
+      <Footer/>
     </div>
   );
 };

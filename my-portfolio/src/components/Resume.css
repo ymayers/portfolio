@@ -1,0 +1,23 @@
+#resume-container {
+  height: 100%;
+  background-image: url(https://images.fineartamerica.com/images-medium-large/ed-koch-bridge-s-paul-sahm.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.resume-header {
+  font-family: 'Mrs Sheppards', cursive;
+  font-weight: 100;
+  background-color: rgba(216, 146, 187, 0.178);
+  color:black;
+  text-shadow: 1px 2px 2px white, 1px 1px 1px #6A4887;
+  box-shadow: 1px 1px 1px rgba(216, 146, 187);
+  margin: 0 0 10px 0;
+}
+
+#resume {
+margin: 38px 0;
+height: 700px;
+width: 600px;
+box-shadow: 1px 2px 8px black, 1px 1px 5px white;
+}

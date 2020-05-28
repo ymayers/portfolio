@@ -15,7 +15,7 @@ function Landing() {
     box-shadow: .35px 1px 5px wheat,  1px 2px 50px black;
     border-radius: 6px;
     padding: 1em;
-    margin: 18em 1em 0 1em;
+    margin: 13em 1em 0 1em;
     position: absolute;
     text-align: center;
     text-shadow: 1px 1px 2px wheat, 1px 3px 3px black;

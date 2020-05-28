@@ -1,13 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Unica+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mrs+Sheppards&display=swap");
 
 .landing-container {
   background-image: url(https://i.pinimg.com/originals/31/e8/d1/31e8d1085e630936bcfeae5ed7a85f0c.gif);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 100vh;
+  height: 90vh;
   color: white;
   display: grid;
   grid-template-rows: 10% 25% 1fr 10%;

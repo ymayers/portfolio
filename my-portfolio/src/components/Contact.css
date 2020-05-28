@@ -1,0 +1,50 @@
+#contact {
+  height: 90vh;
+  margin: 0 auto;
+  background-image: url(https://live.staticflickr.com/4524/26742244799_10fab3c994_b.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.contact-form {
+  margin: 10em 27em 0 27em;
+  padding: 5em 0;
+  background-color: rgba(255, 255, 255, 0.315);
+  box-shadow: 1px 2px 5px white, 1px 1px 1px black;
+  border-radius: 6px;
+  width: 40%;
+  font-family: 'Unica One', cursive;
+  color: white;
+  font-weight: 600;
+  text-shadow: 1px 1px 1px black, 1px 1px 1px white;
+  
+}
+
+.contact-header {
+  font-family: "Mrs Sheppards", cursive;
+  font-weight: 100;
+  background-color: rgba(216, 146, 187, 0.178);
+  color: white;
+  text-shadow: 1px 2px 2px black, 1px 1px 1px #6a4887;
+  box-shadow: 1px 1px 1px rgba(216, 146, 187);
+  margin: 0 0 10px 0;
+}
+
+
+#username {
+  margin: 5px;
+}
+
+#email {
+  margin: 5px;
+}
+
+#inquiry {
+ 
+}
+
+.submit-button {
+  margin: 10px;
+  padding: 1em;
+}

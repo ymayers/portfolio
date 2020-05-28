@@ -1,0 +1,17 @@
+.end {
+  display: inline-block;
+  font-family: "Cinzel", serif;
+  background-color: white;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+
+
+
+/*******************For iPhone*********************/
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  .end {
+    font-size: 12px;
+  }
+}
