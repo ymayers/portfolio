@@ -33,3 +33,49 @@
   text-shadow: 1px 1px 4px black, 1px 2px 20px white;
   font-family: 'Advent Pro', sans-serif;
 }
+
+/*******************For iPhone*********************/
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+
+  .name-holder {
+    padding: 10px;
+    margin: .25em 0 0 .25em;
+  }
+
+  .name {
+    font-size: 40px;
+  }
+  
+  .title {
+    font-size: 20px;
+    margin: -50px 0 0 143px;
+  }
+
+
+  .landing-container {
+    height: 75vh;
+    width: 90%;
+  }
+
+  Box {
+    margin: 20px 5px 0 5px;
+  }
+
+  #about {
+
+    font-size: 18px;
+  }
+
+
+}
+
+
+    /*******************For iPad*********************/
+
+    @media only screen 
+    and (min-device-width: 768px) 
+    and (max-device-width: 1024px) 
+    and (-webkit-min-device-pixel-ratio: 2) {
+
+    }
