@@ -1,0 +1,74 @@
+#project-container {
+height: 90vh;
+width: 100%;
+background-image: url(https://www.moundcotton.com/wp-content/uploads/background-nyc-skyline-01.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+/*https://live.staticflickr.com/7407/9231089749_091fc80c91_b.jpg*/
+.projects-header {
+  font-family: 'Mrs Sheppards', cursive;
+  font-weight: 100;
+  background-color: rgba(216, 146, 187, 0.178);
+  color:black;
+  text-shadow: 1px 2px 2px white, 1px 1px 1px rgba(216, 146, 187);
+  box-shadow: 1px 1px 1px rgba(216, 146, 187);
+  margin: 0 0 10px 0;
+}
+
+#projects {
+  color: black;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.project {
+  font-family: 'Advent Pro', sans-serif;
+  font-weight: 700;
+
+}
+
+.project-info {
+  display: grid;
+  grid-template-columns: 1fr 30%;
+  /* height: 100%; */
+  
+}
+
+.project-display {
+  height: 30%;
+ 
+}
+
+.project-display:hover {
+  box-shadow: 2px 2px 6px rgba(216, 146, 187);
+}
+
+.tech-list {
+  height: 90%;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  justify-content: center;
+  padding: 2px 0;
+  box-shadow: 1px 3px 4px rgba(216, 146, 187) ;
+  background-color: rgba(255, 255, 255, 0.267);
+}
+
+.project-heading {
+text-align: left;
+  padding: 8px;
+  color:black;
+  text-shadow: 1px 2px 1px white;
+}
+
+.project-img a {
+  height: 350px;
+  width: 500px;
+}
+
+
