@@ -1,11 +1,16 @@
 .end {
   display: inline-block;
-  font-family: "Cinzel", serif;
+  font-family: 'Unica One', cursive;
   background-color: white;
   padding: 5px 0 0 0;
   width: 100%;
 }
 
+.contact-link{
+  text-decoration: none;
+  margin: 0 5px;
+
+}
 
 
 /*******************For iPhone*********************/
