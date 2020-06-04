@@ -29,7 +29,8 @@ background-size: cover;
 
 .project {
   font-family: 'Advent Pro', sans-serif;
-  font-weight: 700;
+  font-weight: 900;
+  
 
 }
 
@@ -41,16 +42,12 @@ background-size: cover;
 }
 
 .project-display {
-  height: 30%;
- 
-}
-
-.project-display:hover {
-  box-shadow: 2px 2px 6px rgba(216, 146, 187);
+  height: 100%;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.24);
 }
 
 .tech-list {
-  height: 90%;
+  height: 98%;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   justify-content: center;
@@ -64,11 +61,17 @@ text-align: left;
   padding: 8px;
   color:black;
   text-shadow: 1px 2px 1px white;
+  background-color: rgba(253, 253, 253, 0.342);
+
 }
 
 .project-img a {
   height: 350px;
   width: 500px;
+  box-shadow: 1px 1px 6px rgb(0, 0, 0);
 }
 
+.project-img a:hover {
+  box-shadow: 6px 6px 8px rgb(0, 0, 0);
+}
 

@@ -6,7 +6,7 @@ import Icon from "../assets/images/Icon-YM.png"
 function Header() {
   return (
     <div className="header-container">
-      <img className="icon" src={Icon}/>
+      <img className="icon" src={Icon} alt="ym"/>
       <nav className="nav">
         <Link to="/">
           <a classname="about-link" href="#about">

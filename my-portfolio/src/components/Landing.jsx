@@ -6,10 +6,6 @@ import Typist from "react-typist";
 import "./Landing.css";
 
 function Landing() {
-  const variants = {
-    visible: { opacity: 1 },
-    hidden: { opacity: 0 },
-  };
   const Box = styled.div`
     background-color: transparent;
     box-shadow: 0.35px 1px 5px wheat, 1px 2px 50px black;
@@ -22,27 +18,6 @@ function Landing() {
     font-size: 20px;
     font-family: "Fredericka the Great", cursive;
   `;
-
-  // const list = {
-  //   visible: {
-  //     opacity: 1,
-  //     transition: {
-  //       when: "beforeChildren",
-  //       staggerChildren: 0.5,
-  //     },
-  //   },
-  //   hidden: {
-  //     opacity: 0,
-  //     transition: {
-  //       when: "afterChildren",
-  //     },
-  //   },
-  // };
-
-  // const item = {
-  //   visible: { opacity: 1, x: 0 },
-  //   hidden: { opacity: 0, x: -100 },
-  // };
 
   return (
     <section className="landing-container">
@@ -57,29 +32,12 @@ function Landing() {
         </Typist>
         <h2 className="title">Web Developer</h2>
       </motion.div>
-      {/* <motion.ul initial="hidden" animate="visible" variants={list}>
-        <motion.li variants={item}>
-          {" "}
-          <h1>This is the Landing Page</h1>{" "}
-        </motion.li>
-        .
-        <motion.li variants={item} />
-        <motion.li variants={item} />
-      </motion.ul> */}
 
       <motion.div
         className="welcome"
         initial={{ opacity: 0, x: -350 }}
-        // animate={{ opacity: 1 }}
         animate={{ opacity: 2, x: 10 }}
         transition={{ ease: "easeOut", duration: 1 }}
-        // exit={{ opacity: 0 }}
-        //   initial="hidden"
-        // animate="visible"
-        // initial={false}
-        //   transition={{ ease: "easeOut", duration: 1 }}
-        // variants={variants}
-        // transition={{ duration: 8.5 }}
       >
         <Box>
           <p id="about">
@@ -91,12 +49,6 @@ function Landing() {
           </p>
         </Box>
       </motion.div>
-
-      {/* <motion.circle
-cx={500}
-animate={{ cx: [null, 100, 200] }}
-transition={{ duration: 3, times: [0, 0.2, 1] }}
-      /> */}
     </section>
   );
 }

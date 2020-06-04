@@ -18,7 +18,7 @@ class Projects extends Component {
             <div className="project-heading">The Saint Albans Vitae</div>
             <div className="project-info">
               <section className="project-display">
-                <a href="http://saint-albans-vitae.surge.sh/">
+                <a href="http://saint-albans-vitae.surge.sh/" target="_blank" rel="noopener noreferrer">
                   <img
                     classname="project-img"
                     src="https://imgur.com/qw6GoBV.png"
@@ -64,7 +64,7 @@ class Projects extends Component {
             <div className="project-heading">Red Squirrel</div>
             <div className="project-info">
               <section className="project-display">
-                <a href="http://red-squirrel.surge.sh/">
+                <a href="http://red-squirrel.surge.sh/" target="_blank" rel="noopener noreferrer">
                   {" "}
                   <img
                     classname="project-img"
@@ -111,7 +111,7 @@ class Projects extends Component {
             <div className="project-heading">Vietnaam 88</div>
             <div className="project-info">
               <section className="project-display">
-                <a href="https://vietnaam88.netlify.app/">
+                <a href="https://vietnaam88.netlify.app/" target="_blank" rel="noopener noreferrer">
                   {" "}
                   <img
                     classname="project-img"
@@ -152,7 +152,7 @@ class Projects extends Component {
             <div className="project-info">
               {" "}
               <section className="project-display">
-                <a href="https://world-covid-info.netlify.app/">
+                <a href="https://world-covid-info.netlify.app/" target="_blank" rel="noopener noreferrer">
                   <img
                     classname="project-img"
                     src="https://imgur.com/tdEinTR.png"
