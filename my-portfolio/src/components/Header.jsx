@@ -1,31 +1,22 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Header.css";
+import Icon from "../assets/images/Icon-YM.png"
 
 function Header() {
   return (
-    <>
+    <div className="header-container">
+      <img className="icon" src={Icon}/>
       <nav className="nav">
         <Link to="/">
-          {" "}
           <a classname="about-link" href="#about">
             About
-          </a>{" "}
+          </a>
         </Link>
-        {/* <Link to="/projects">
-          {" "}
-          <a classname="projects-link" href="#projects">
-            Projects
-          </a>{" "}
-        </Link> */}
-        {/* <a classname="projects-link" href="#project-container">Projects</a>
-        <a classname="resume-link" href="#resume-container">
-          Resume
-        </a>
-        <a classname="contact-link" href="#contact">
-          Contact Me
-        </a> */}
-                <Link to="/projects" classname="projects-link" >Projects</Link>
+
+        <Link to="/projects" classname="projects-link">
+          Projects
+        </Link>
         <Link to="/resume" classname="resume-link">
           Resume
         </Link>
@@ -33,7 +24,8 @@ function Header() {
           Contact Me
         </Link>
       </nav>
-    </>
+      <section className="empty"/>
+    </div>
   );
 }
 

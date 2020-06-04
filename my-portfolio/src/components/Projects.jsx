@@ -1,20 +1,6 @@
 import React, { Component } from "react";
 
 import "./Projects.css";
-import albans from "../assets/images/st_albans_v.png";
-import squirrel from "../assets/images/red_squirrel.png";
-import vietnaam from "../assets/images/vietnaam.png";
-import covid from "../assets/images/covid_info.png";
-import css from "../assets/images/css.png";
-import express from "../assets/images/express.png";
-import html from "../assets/images/html.png";
-import js from "../assets/images/js.png";
-import mongo from "../assets/images/mongo.png";
-import node from "../assets/images/node.png";
-import psql from "../assets/images/psql.png";
-import rails from "../assets/images/rails.png";
-import reactpic from "../assets/images/react.png";
-import ruby from "../assets/images/ruby.png";
 
 class Projects extends Component {
   constructor() {
@@ -33,34 +19,40 @@ class Projects extends Component {
             <div className="project-info">
               <section className="project-display">
                 <a href="http://saint-albans-vitae.surge.sh/">
-                  <img classname="project-img" src={albans} height="250" width="400" alt="vitae" />
+                  <img
+                    classname="project-img"
+                    src="https://imgur.com/qw6GoBV.png"
+                    height="250"
+                    width="400"
+                    alt="vitae"
+                  />
                 </a>
               </section>
               <section className="tech-list">
                 <img
                   className="tech-img"
-                  src={reactpic}
+                  src="https://imgur.com/Tht4zSK.png"
                   height="40"
                   width="40"
                   alt="react"
                 />
                 <img
                   className="tech-img"
-                  src={ruby}
+                  src="https://imgur.com/JgPQKPr.png"
                   height="40"
                   width="40"
                   alt="ruby"
                 />
                 <img
                   className="tech-img"
-                  src={rails}
+                  src="https://imgur.com/edqF1Rk.png"
                   height="40"
                   width="40"
                   alt="rails"
                 />
                 <img
                   className="tech-img"
-                  src={psql}
+                  src="https://imgur.com/f3z7EHF.png"
                   height="60"
                   width="60"
                   alt="psql"
@@ -74,34 +66,40 @@ class Projects extends Component {
               <section className="project-display">
                 <a href="http://red-squirrel.surge.sh/">
                   {" "}
-                  <img classname="project-img"  src={squirrel} height="250" width="400" alt="squirrel" />
+                  <img
+                    classname="project-img"
+                    src="https://imgur.com/mEW2NAO.png"
+                    height="250"
+                    width="400"
+                    alt="squirrel"
+                  />
                 </a>
               </section>
               <section className="tech-list">
                 <img
                   className="tech-img"
-                  src={mongo}
+                  src="https://imgur.com/P6EmRyD.png"
                   height="40"
                   width="40"
                   alt="mongo"
                 />
                 <img
                   className="tech-img"
-                  src={express}
+                  src="https://imgur.com/kqnRFIR.png"
                   height="40"
                   width="40"
                   alt="express"
                 />
                 <img
                   className="tech-img"
-                  src={reactpic}
+                  src="https://imgur.com/Tht4zSK.png"
                   height="40"
                   width="40"
                   alt="react"
                 />
                 <img
                   className="tech-img"
-                  src={node}
+                  src="https://imgur.com/LnQFwpV.png"
                   height="40"
                   width="40"
                   alt="node"
@@ -115,27 +113,33 @@ class Projects extends Component {
               <section className="project-display">
                 <a href="https://vietnaam88.netlify.app/">
                   {" "}
-                  <img classname="project-img" src={vietnaam} height="250" width="400" alt="vietnaam" />
+                  <img
+                    classname="project-img"
+                    src="https://imgur.com/aDFN45E.png"
+                    height="250"
+                    width="400"
+                    alt="vietnaam"
+                  />
                 </a>
               </section>
               <section className="tech-list">
                 <img
                   className="tech-img"
-                  src={css}
+                  src="https://imgur.com/WtvnJDS.png"
                   height="60"
                   width="60"
                   alt="css"
                 />
                 <img
                   className="tech-img"
-                  src={html}
+                  src="https://imgur.com/gfaheDE.png"
                   height="60"
                   width="60"
                   alt="html"
                 />
                 <img
                   className="tech-img"
-                  src={js}
+                  src="https://imgur.com/SF6PpNG.png"
                   height="60"
                   width="60"
                   alt="js"
@@ -149,27 +153,33 @@ class Projects extends Component {
               {" "}
               <section className="project-display">
                 <a href="https://world-covid-info.netlify.app/">
-                  <img src={covid} height="250" width="400" alt="covid" />
+                  <img
+                    classname="project-img"
+                    src="https://imgur.com/tdEinTR.png"
+                    height="250"
+                    width="400"
+                    alt="covid"
+                  />
                 </a>
               </section>
               <section className="tech-list">
                 <img
                   className="tech-img"
-                  src={reactpic}
+                  src="https://imgur.com/Tht4zSK.png"
                   height="40"
                   width="40"
                   alt="react"
                 />
                 <img
                   className="tech-img"
-                  src={node}
+                  src="https://imgur.com/LnQFwpV.png"
                   height="40"
                   width="40"
                   alt="node"
                 />
                 <img
                   className="tech-img"
-                  src={css}
+                  src="https://imgur.com/WtvnJDS.png"
                   height="60"
                   width="60"
                   alt="css"

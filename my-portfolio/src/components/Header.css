@@ -1,5 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&display=swap");
 
+.header-container {
+  display: grid;
+  grid-template-columns: 5% 1fr 5%;
+}
+
+.icon{
+  height: 30px;
+  width: 34px;
+  margin: 8px 0 0 0;
+  padding-left: 8px;
+}
 
 .nav {
   margin: 1em 0 2em 0;
